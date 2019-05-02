@@ -1,0 +1,24 @@
+/**
+ * components-arrange
+ */
+
+:root {
+  --Arrange-gutter-size: var(--spaceSmall);
+}
+
+/**
+ * components-grid
+ */
+
+:root {
+  --Grid-gutter-size: var(--spaceLarge);
+}
+
+/**
+ * components-button
+ */
+
+:root {
+  --Button-color: #03c;
+  --Button-border-color: #03c;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "factorial-io/pattern-lab-starterkit-suitcss",
+  "description": "Pattern Lab StarterKit for SUIT CSS.",
+  "keywords": [
+    "twig",
+    "pattern lab",
+    "starterkit",
+    "demo"
+  ],
+  "homepage": "http://patternlab.io",
+  "license": "GPL-2.0+",
+  "type": "patternlab-starterkit",
+  "authors": [
+    {
+      "name": "Milan Matull",
+      "homepage": "http://factorial.io",
+      "email": "milan@factorial.io",
+      "role": "Lead Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/factorial-io/pattern-lab-starterkit-suitcss",
+    "source": "https://github.com/factorial-io/pattern-lab-starterkit-suitcss/tree/master"
+  },
+  "require": {
+    "pattern-lab/core": "^2.0.0",
+    "pattern-lab/patternengine-twig": "^2.0.0"
+  },
+  "extra": {
+    "patternlab": {
+      "dist": {
+        "sourceDir": [
+          {
+            "*": "*"
+          }
+        ]
+      }
+    }
+  },
+  "scripts": {
+    "post-install-cmd": "yarn add suitcss-base suitcss-components-arrange suitcss-components-button suitcss-components-flex-embed suitcss-components-grid suitcss-components-test suitcss-utils-after suitcss-utils-align suitcss-utils-before suitcss-utils-display suitcss-utils-flex suitcss-utils-layout suitcss-utils-link suitcss-utils-position suitcss-utils-size suitcss-utils-text"
+  }
+}
