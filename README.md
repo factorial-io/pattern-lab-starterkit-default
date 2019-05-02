@@ -1,7 +1,7 @@
-# StarterKit for SUIT CSS
+# StarterKit for Factorial PatternLab
 
-The StarterKit is meant to be used in all new factorial projects.
-It uses the default factorial folder structure, please read more about this here: [Default Folder Structure](https://confluence.factorial.io/display/WIKI/Patternlab+default+folder+structure).
+The StarterKit is meant to be used in all new Factorial projects.
+It uses the default Factorial folder structure, please read more about this here: [Default Folder Structure](https://confluence.factorial.io/display/WIKI/Patternlab+default+folder+structure).
 
 ## Requirements
 
