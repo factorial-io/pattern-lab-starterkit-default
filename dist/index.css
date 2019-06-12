@@ -1,2 +1,11 @@
-@import "./_patterns/01-theme/theme.css";
-@import "./_patterns/01-theme/theme-map.css";
+/**
+  * Import 'index.css' files from pattern folders.
+  * To add a new component, add the new css file in the 'index.css' in the
+  * corresponding folder.
+ **/
+
+@import "./_patterns/00-theme/index.css";
+@import "./_patterns/01-elements/index.css";
+@import "./_patterns/02-components/index.css";
+@import "./_patterns/03-template-components/index.css";
+@import "./_patterns/04-templates/index.css";
