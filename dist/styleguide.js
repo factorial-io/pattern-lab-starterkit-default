@@ -3,4 +3,4 @@
  * patternlab.
  */
 
- import "./styleguide.css";
+import "./styleguide.css";
