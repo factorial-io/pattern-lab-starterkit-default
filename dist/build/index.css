@@ -1,0 +1,21 @@
+/**
+  * Import 'index.css' files from pattern folders.
+  * To add a new component, add the new css file in the 'index.css' in the
+  * corresponding folder.
+ **/
+/** @define Card; */
+:root {
+  --Card-color: rgb(235, 83, 23);
+}
+.Card {
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+.Card-copy {
+  color: rgb(235, 83, 23);
+  color: var(--Card-color);
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJpbmRleC5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/
