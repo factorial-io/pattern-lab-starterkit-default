@@ -1,6 +1,6 @@
 {
-  "name": "factorial-io/pattern-lab-starterkit-suitcss",
-  "description": "Pattern Lab StarterKit for SUIT CSS.",
+  "name": "factorial-io/pattern-lab-starterkit-default",
+  "description": "Pattern Lab StarterKit for Factorial.",
   "keywords": [
     "twig",
     "pattern lab",
@@ -19,8 +19,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/factorial-io/pattern-lab-starterkit-suitcss",
-    "source": "https://github.com/factorial-io/pattern-lab-starterkit-suitcss/tree/master"
+    "issues": "https://github.com/factorial-io/pattern-lab-starterkit-default",
+    "source": "https://github.com/factorial-io/pattern-lab-starterkit-default/tree/master"
   },
   "require": {
     "pattern-lab/core": "^2.0.0",
