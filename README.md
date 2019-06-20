@@ -1,7 +1,8 @@
 # StarterKit for Factorial PatternLab
 
 The StarterKit is meant to be used in all new Factorial projects.
-It uses the default Factorial folder structure, please read more about this here: [Default Folder Structure](https://confluence.factorial.io/display/WIKI/Patternlab+default+folder+structure).
+
+It uses the default Factorial folder structure, please read more about this here: [Default Folder Structure](https://confluence.factorial.io/display/WIKI/Patternlab+default+folder+structure) (_private confluence instance_).
 
 ## Requirements
 
@@ -13,19 +14,10 @@ This StarterKit requires the following PatternEngine:
 
 This StarterKit can be installed via one of the following commands:
 
-    php core/console --starterkit --install factorial-io/pattern-lab-starterkit-folders
+    php core/console --starterkit --install factorial-io/pattern-lab-starterkit-default
 
 It is recommended that you **do not** install this StarterKit as a dependency for your Pattern Lab project via Composer.
 
-## Usage in pattern-lab-edition-factorial
-
-When using the starter in **pattern-lab-edition-factorial** you need to replace **"@factorial/frontend-stack-postcss-export-custom-variables"** in the **neutrinorc.js** file:
-
-    [
-      "@factorial/frontend-stack-postcss-export-custom-variables", {
-        destination: "source/_patterns/00-theme/theme.json",
-      }
-    ]
 
 ## Edit Files
 
