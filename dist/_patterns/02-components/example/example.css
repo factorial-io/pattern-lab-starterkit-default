@@ -1,0 +1,95 @@
+/* stylelint-disable max-line-length */
+
+/**
+ * This is an example component that demonstrates most class naming conventions
+ * based in the SUIT CSS framwork. We adhere to that convention so we can write
+ * CSS without conflicts at Factorial.
+ *
+ * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md
+ */
+
+/**
+ * Use a definition block to initialize postcss-bem-linter
+ *
+ * @see https://github.com/postcss/postcss-bem-linter
+ */
+
+/** @define Example; */
+
+/**
+ * We use CSS custom properties. Variable names must be namespaced to the
+ * current component scope. Variables are resolved at BUILD time so we can have
+ * backwards compatibility with legacy browsers.
+ *
+ * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#variables
+ * @see https://github.com/postcss/postcss-custom-properties
+ */
+
+:root {
+  --Example-color: rgba(0, 0, 0, 0.9);
+  --Example-primary-bg-color: #ffc;
+  --Example-radius: 0.25rem;
+  --Example-padding: 0.5rem;
+  --Example-space: 0.25rem;
+}
+
+/**
+ * The component root.
+ *
+ * We usually don't set its dimensions or margin.
+ * Its layout must be defined by its acenstral context.
+ *
+ * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#ComponentName
+ * @see https://github.com/suitcss/suit/blob/master/doc/components.md#styling-dependencies
+ */
+
+.Example {
+  border-color: transparent;
+  border-radius: var(--Example-space);
+  border-style: solid;
+  border-width: var(--Example-space);
+  box-shadow: 0 0 var(--Example-space) 0 rgba(0, 0, 0, 0.2);
+  color: var(--Example-color);
+  font-family: sans-serif;
+  overflow: hidden;
+  padding: var(--Example-padding);
+}
+
+/**
+ * Component variations are denoted using the modifier syntax.
+ *
+ * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentname--modifiername
+ */
+
+.Example--primary {
+  background-color: var(--Example-primary-bg-color);
+}
+
+/**
+ * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentname-descendentname
+ */
+
+.Example-title {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.Example-copy {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.Example-button {
+  cursor: pointer;
+  float: right;
+}
+
+/**
+ * State changes at run time, usually from JavaScript.
+ *
+ * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentnameis-stateofcomponent
+ */
+
+.Example.is-favorite {
+  border-color: #03c;
+}
