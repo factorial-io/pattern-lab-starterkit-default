@@ -1,15 +1,15 @@
 /* stylelint-disable max-line-length */
 
 /**
- * This is an example component that demonstrates most class naming conventions
- * based in the SUIT CSS framwork. We adhere to that convention so we can write
- * CSS without conflicts at Factorial.
+ * This is an example component that demonstrates class naming conventions
+ * based upon the SUIT CSS framwork. We adhere to that convention so we can
+ * write CSS without conflicts at Factorial.
  *
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md
  */
 
 /**
- * Use a definition block to initialize postcss-bem-linter
+ * Use a definition block to initialize postcss-bem-linter.
  *
  * @see https://github.com/postcss/postcss-bem-linter
  */
@@ -37,7 +37,7 @@
  * The component root.
  *
  * We usually don't set its dimensions or margin.
- * Its layout must be defined by its acenstral context.
+ * Its layout must be defined by its parent context.
  *
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#ComponentName
  * @see https://github.com/suitcss/suit/blob/master/doc/components.md#styling-dependencies
