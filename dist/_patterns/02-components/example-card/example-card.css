@@ -86,6 +86,7 @@
 
 /**
  * State changes at run time, usually from JavaScript.
+ * Never style these classes directly; they should always be used as an adjoining class.
  *
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentnameis-stateofcomponent
  */
