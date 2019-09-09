@@ -2,4 +2,4 @@
 # "pseudo-pattern". The data is inherited from the base pattern (example.yaml).
 # Plase note the tilde character "~" to denote them in the file system.
 # @see https://patternlab.io/docs/pattern-pseudo-patterns.html
-primary: true
+secondary: true

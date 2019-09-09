@@ -27,7 +27,7 @@
 
 :root {
   --ExampleCard-color: rgba(0, 0, 0, 0.9);
-  --ExampleCard-primary-bg-color: #ffc;
+  --ExampleCard-secondary-bg-color: #ffc;
   --ExampleCard-radius: 0.25rem;
   --ExampleCard-padding: 0.5rem;
   --ExampleCard-space: 0.25rem;
@@ -61,8 +61,8 @@
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentname--modifiername
  */
 
-.ExampleCard--primary {
-  background-color: var(--ExampleCard-primary-bg-color);
+.ExampleCard--secondary {
+  background-color: var(--ExampleCard-secondary-bg-color);
 }
 
 /**
