@@ -14,7 +14,7 @@
  * @see https://github.com/postcss/postcss-bem-linter
  */
 
-/** @define Example; */
+/** @define ExampleCard; */
 
 /**
  * We use CSS custom properties. Variable names must be namespaced to the
@@ -26,11 +26,11 @@
  */
 
 :root {
-  --Example-color: rgba(0, 0, 0, 0.9);
-  --Example-primary-bg-color: #ffc;
-  --Example-radius: 0.25rem;
-  --Example-padding: 0.5rem;
-  --Example-space: 0.25rem;
+  --ExampleCard-color: rgba(0, 0, 0, 0.9);
+  --ExampleCard-primary-bg-color: #ffc;
+  --ExampleCard-radius: 0.25rem;
+  --ExampleCard-padding: 0.5rem;
+  --ExampleCard-space: 0.25rem;
 }
 
 /**
@@ -43,16 +43,16 @@
  * @see https://github.com/suitcss/suit/blob/master/doc/components.md#styling-dependencies
  */
 
-.Example {
+.ExampleCard {
   border-color: transparent;
-  border-radius: var(--Example-space);
+  border-radius: var(--ExampleCard-space);
   border-style: solid;
-  border-width: var(--Example-space);
-  box-shadow: 0 0 var(--Example-space) 0 rgba(0, 0, 0, 0.2);
-  color: var(--Example-color);
+  border-width: var(--ExampleCard-space);
+  box-shadow: 0 0 var(--ExampleCard-space) 0 rgba(0, 0, 0, 0.2);
+  color: var(--ExampleCard-color);
   font-family: sans-serif;
   overflow: hidden;
-  padding: var(--Example-padding);
+  padding: var(--ExampleCard-padding);
 }
 
 /**
@@ -61,25 +61,25 @@
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentname--modifiername
  */
 
-.Example--primary {
-  background-color: var(--Example-primary-bg-color);
+.ExampleCard--primary {
+  background-color: var(--ExampleCard-primary-bg-color);
 }
 
 /**
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentname-descendentname
  */
 
-.Example-title {
+.ExampleCard-title {
   font-size: 1.25rem;
   margin: 0;
 }
 
-.Example-copy {
+.ExampleCard-copy {
   font-size: 1rem;
   margin: 0;
 }
 
-.Example-button {
+.ExampleCard-button {
   cursor: pointer;
   float: right;
 }
@@ -90,6 +90,6 @@
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentnameis-stateofcomponent
  */
 
-.Example.is-favorite {
+.ExampleCard.is-favorite {
   border-color: #03c;
 }

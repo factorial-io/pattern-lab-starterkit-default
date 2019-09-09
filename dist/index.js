@@ -2,10 +2,10 @@
 import "./index.css";
 
 // Import local dependencies
-import Example from "./_patterns/02-components/example/example";
+import ExampleCard from "./_patterns/02-components/example-card/example-card";
 
 const CLASS_FACTORY = {
-  ".js-Example": Example
+  ".js-ExampleCard": ExampleCard
 };
 
 let app = null;

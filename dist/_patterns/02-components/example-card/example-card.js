@@ -1,16 +1,16 @@
-export default class Example {
+export default class ExampleCard {
   /**
    * Sets up instance variables and calls mounted hook.
    *
    * @param {HTMLElement} element
    * @param {Object} options
-   * @param {Sting} [options.favoriteSelector=".js-Example-favorite"] CSS selector for the element that will toggle favorite state
+   * @param {Sting} [options.favoriteSelector=".js-ExampleCard-favorite"] CSS selector for the element that will toggle favorite state
    * @param {Sting} [options.favoriteClassName=""is-favorite""] CSS class name for the favorite state
    */
   constructor(
     element,
     options = {
-      favoriteSelector: ".js-Example-favorite",
+      favoriteSelector: ".js-ExampleCard-favorite",
       favoriteClassName: "is-favorite"
     }
   ) {
