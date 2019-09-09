@@ -1,6 +1,6 @@
 export default class Example {
   /**
-   * Sets up instance variables and call mounted hook.
+   * Sets up instance variables and calls mounted hook.
    *
    * @param {HTMLElement} element
    * @param {Object} options
