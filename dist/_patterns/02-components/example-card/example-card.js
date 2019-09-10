@@ -4,8 +4,8 @@ export default class ExampleCard {
    *
    * @param {HTMLElement} element
    * @param {Object} options
-   * @param {Sting} [options.favoriteSelector=".js-ExampleCard-favorite"] CSS selector for the element that will toggle favorite state
-   * @param {Sting} [options.favoriteClassName=""is-favorite""] CSS class name for the favorite state
+   * @param {String} [options.favoriteSelector=".js-ExampleCard-favorite"] CSS selector for the element that will toggle favorite state
+   * @param {String} [options.favoriteClassName=""is-favorite""] CSS class name for the favorite state
    */
   constructor(
     element,
