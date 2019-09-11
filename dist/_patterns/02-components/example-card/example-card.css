@@ -51,6 +51,7 @@
   box-shadow: 0 0 var(--ExampleCard-space) 0 rgba(0, 0, 0, 0.2);
   color: var(--ExampleCard-color);
   font-family: sans-serif;
+  font-size: 1rem;
   overflow: hidden;
   padding: var(--ExampleCard-padding);
 }
@@ -70,12 +71,12 @@
  */
 
 .ExampleCard-title {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   margin: 0;
 }
 
 .ExampleCard-copy {
-  font-size: 1rem;
+  font-size: 1em;
   margin: 0;
 }
 
@@ -86,11 +87,25 @@
 
 /**
  * State changes at run time, usually from JavaScript.
- * Never style these classes directly; they should always be used as an adjoining class.
+ * Never style these classes directly; they should always be used as an
+ * adjoining class.
  *
  * @see https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md#componentnameis-stateofcomponent
  */
 
 .ExampleCard.is-favorite {
   border-color: #03c;
+}
+
+/**
+ * Arbitrary changes to components based on viewport size can be made by using
+ * custom media queries. Prefer intrinsic layout methods if possible.
+ *
+ * @see https://github.com/postcss/postcss-custom-media
+ */
+@media (--lg-viewport) {
+
+  .ExampleCard {
+    font-size: 1.2rem;
+  }
 }
